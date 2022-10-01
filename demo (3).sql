@@ -1,0 +1,5 @@
+BEGIN
+    DELETE FROM CAR
+    WHERE ID = :id;
+    :STATUS_CODE := 204;
+    END;
